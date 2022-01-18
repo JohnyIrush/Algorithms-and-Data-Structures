@@ -16,15 +16,11 @@ public class MergeSort
         int[] rightHalf = new int[inputLength - midIndex];
 
         for (int i = 0; i < midIndex; i++)
-        {
             leftHalf[i] = inputArray[i];
-        }
 
 
         for (int i = midIndex; i < inputLength; i++)
-        {
             rightHalf[i - midIndex] = inputArray[i];
-        }
 
         //-- Merge sort Recursively
 

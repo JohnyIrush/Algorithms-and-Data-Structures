@@ -19,7 +19,7 @@ public class DFS {
         //Mark all the vertices as
         // not visited
         boolean[] visited = new boolean[Vertices];
-
+ 
         traversal(vertice, visited);
 
     }

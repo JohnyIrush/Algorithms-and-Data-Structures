@@ -18,12 +18,12 @@ public class BFS
 
         boolean[] visited = new boolean[Vertices];
 
-        traversal(vertex, visited);
+        traversal(vertex, visited); // traversal utility function
     }
 
     public void traversal(int vertex, boolean[] visited)
     {
-        LinkedList<Integer> queue = new LinkedList<>();
+        LinkedList<Integer> queue = new LinkedList<>(); // create a queue - unvisited nodes
 
         visited[vertex] = true;
         queue.add(vertex);

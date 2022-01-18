@@ -1,3 +1,4 @@
+package HashTable;
 public class HashTable
 {
     private HashNode[] buckets;

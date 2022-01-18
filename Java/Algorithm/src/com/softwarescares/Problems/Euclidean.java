@@ -1,4 +1,4 @@
-package com.softwarescares;
+package com.softwarescares.Problems;
 
 public class Euclidean
 {

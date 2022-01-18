@@ -1,4 +1,4 @@
-package com.softwarescares.Graphs;
+package com.softwarescares.Graphs.Algos;
 
 public class Prims
 {
